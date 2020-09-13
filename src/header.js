@@ -5,10 +5,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
-import Container from '@material-ui/core/Container';
 import Slide from '@material-ui/core/Slide';
 import logo from './images/logo.png'
 import {withStyles} from '@material-ui/styles';
@@ -80,7 +78,7 @@ function HideAppBar(props) {
               <Grid container spacing={2}>
               <Grid item xs ={3}>
                 <ButtonBase>
-                    <img src ={logo}/>
+                    <img alt = "" src ={logo}/>
                 </ButtonBase>
               </Grid>
               

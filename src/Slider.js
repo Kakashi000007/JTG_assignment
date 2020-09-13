@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import Slider from 'infinite-react-carousel';
-import {useStyle} from '@material-ui/core/styles'
 import Image1 from './images/banner_slider_01.jpg';
 import Image2 from './images/banner_slider_02.jpg';
 import { Typography } from '@material-ui/core';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
-import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box'
 
 const divStyles = {
@@ -47,7 +45,7 @@ export default class CustomSlider extends Component {
       <div>
         <Slider style = {divStyles} { ...settings }>
           <div >
-            <img src={Image1}/>
+            <img alt="" src={Image1}/>
             <CardContent>
             <Typography style = {text} gutterBottom align = 'right' variant="h5" component="h2">
             META CONSECTETUS
@@ -63,7 +61,7 @@ export default class CustomSlider extends Component {
         </CardActions>
           </div>
           <div>
-          <img src={Image2}/>
+          <img alt = "" src={Image2}/>
           <CardContent>
             <Typography style = {text} gutterBottom align = 'right' variant="h5" component="h2">
             META CONSECTETUS

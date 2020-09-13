@@ -1,7 +1,6 @@
 import React from "react";
 import { makeStyles } from '@material-ui/core/styles';
 import image from './images/footer_bg.jpg'
-import { Box, Typography } from "@material-ui/core";
  
 const useStyles = makeStyles({
   footer : {

@@ -2,11 +2,9 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import Grid from '@material-ui/core/Grid';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import ButtonBase from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import CardActionArea from '@material-ui/core/CardActionArea';
 import image1 from './images/VideoThumbnail/1 (1).jpg';
 import image2 from './images/VideoThumbnail/1 (2).jpg';
 import image3 from './images/VideoThumbnail/1 (3).jpg';
@@ -17,7 +15,7 @@ import video3 from './images/VideoThumbnail/download (2).jfif';
 import video4 from './images/VideoThumbnail/download (3).jfif';
 import close from './images/close.png';
 import CardMedia from '@material-ui/core/CardMedia';
-import { Box, Button } from '@material-ui/core';
+import { Box } from '@material-ui/core';
 import Modal from '@material-ui/core/Modal';
 
 function getModalStyle() {
@@ -135,7 +133,7 @@ export default function OutlinedCard() {
       >
         <div style = {divStyle}>
          
-          <img src={close} style = {closeStyle}/>
+          <img alt = "" src={close} style = {closeStyle}/>
           
   <Typography style = {titleStyle}>{title}</Typography>
        <CardMedia
@@ -155,7 +153,7 @@ export default function OutlinedCard() {
       >
         <div style = {divStyle}>
          
-          <img src={close} style = {closeStyle}/>
+          <img alt = "" src={close} style = {closeStyle}/>
           
 
        <CardMedia

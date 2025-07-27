@@ -7,6 +7,7 @@ import OutlinedCard from './lifestyle.js';
 import Random from './myCustomer.js';
 import ComplexPart from './mediaResources';
 import Footer from './footer';
+import PalindromeChecker from './PalindromeChecker';
 
 const divStyle = {
   backgroundImage: `url(${image})`,
@@ -27,6 +28,9 @@ function App() {
       <ComplexPart />
       <Footer />
       </div>
+      
+      {/* Palindrome Checker Section */}
+      <PalindromeChecker />
     </div>
   );
 }
